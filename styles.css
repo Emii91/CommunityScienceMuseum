@@ -18,7 +18,6 @@ header img {
 
 .btn {
     background-color: #496F70;
-    color: #ffffff;
     text-transform: uppercase;
     padding: 8px 40px;
     font-size: 20px;
@@ -26,4 +25,32 @@ header img {
     border-radius: 50px;
     cursor: pointer;
     margin-top: 20px;
+}
+
+.btn:hover {
+    padding: 10px 40px;
+    font-size: 23px;
+}
+
+/* NAV */
+
+.logo {
+    max-width: 100%;
+    width: 200px;
+    float: left;
+}
+
+nav {
+    height: 100px;
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+nav a:hover {
+    text-transform: uppercase;
 }
