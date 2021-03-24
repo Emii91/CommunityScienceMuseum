@@ -1,9 +1,14 @@
+@font-face {
+    font-family: "Righteous-Regular";
+    src: url(../font/righteous-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     background-color:black;
     color: white;
-    font-family: 'Righteous';
+    font-family: 'Righteous-Regular';
 }
 
 /* index */
@@ -59,5 +64,10 @@ nav a:hover {
 
 .exploretogether h1 {
     color: #496F70;
+    text-align: center;
 }
 
+.exploretogether {
+    justify-content: center;
+    text-align: center;
+}
