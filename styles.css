@@ -113,24 +113,26 @@ label {
 }
 
 .img-explore {
-    width: 317px;
+    width: 300px;
     height: 317px;
     border-radius: 20%;
+    margin: auto;
 }
 
 h2 {
     background-color: #496F70;
-    width: 317px;
+    width: 300px;
     height: 40px;
     text-align: center;
     position: relative;
-    bottom: 100px;
+    bottom: 120px;
+    margin: auto;
 }
 
 
 /* Media Queries */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
     label {
         display: block;
         cursor: pointer;
