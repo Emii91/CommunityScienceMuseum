@@ -74,7 +74,7 @@ nav a:hover {
     text-transform: uppercase;
     font-family: 'Source Sans Pro Black';
     font-size: 20px;
-    padding: 10px;
+    padding: 5px;
 }
 
 label {
@@ -108,8 +108,10 @@ label {
 }
 
 .text-explore h1 {
-    color: #496F70;
+    color: rgb(131,199,201);
     font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 .img-explore {
@@ -120,14 +122,20 @@ label {
 }
 
 h2 {
-    background-color: #496F70;
+    background: rgb(131,199,201);
+    background: linear-gradient(90deg, rgba(131,199,201,1) 0%, rgba(73,111,112,1) 100%, rgba(0,0,0,1) 100%);
     width: 300px;
     height: 40px;
     text-align: center;
     position: relative;
     bottom: 120px;
     margin: auto;
+    text-transform: uppercase;
 }
+
+
+/* Footer */
+
 
 
 /* Media Queries */
@@ -149,11 +157,27 @@ h2 {
         margin: 0;
     }
     .menu a:hover {
-        background-color: #496F70;
+        background: rgb(131,199,201);
+        background: linear-gradient(90deg, rgba(131,199,201,1) 0%, rgba(73,111,112,1) 100%, rgba(0,0,0,1) 100%);
         font-size: 22px;
     }
     #toggle:checked + .menu {
         display: block;
+        position: absolute;
+        margin-top: 50px;
+    }
+    .img-explore-module {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .kids {
+        top: -800px;
+    }
+    .teachers {
+        top: -520px;
+    }
+    .researchers {
+        top: -250px;
     }
 }
     
