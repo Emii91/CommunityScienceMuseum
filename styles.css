@@ -11,13 +11,6 @@
     font-family: 'Righteous-Regular';
 }
 
-p {
-    font-size: 20px;
-    text-align: center;
-    margin: 60px 60px;
-    background: transparent;
-}
-
 
 /* index */
 
@@ -121,6 +114,13 @@ label {
     background: transparent;
 }
 
+.color-text {
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+    margin: 60px 50px 100px 50px;
+}
+
 .btn-big {
     background: rgb(131,199,201);
     background: linear-gradient(90deg, rgba(131,199,201,1) 0%, rgba(73,111,112,1) 100%, rgba(0,0,0,1) 100%);
@@ -145,25 +145,32 @@ label {
     border-radius: 20%;
 }
 
-.container-blue {
-    width: 1200px;
+.blue-container {
     background: rgb(131,199,201);
     background: linear-gradient(90deg, rgba(131,199,201,1) 0%, rgba(73,111,112,1) 100%, rgba(0,0,0,1) 100%);
     border-radius: 100px;
-    margin: auto;
-    margin-bottom: 100px;
+    margin: 150px 50px;
     display: flex;
 }
 
-.container-green {
-    width: 1200px;
+.blue-container,
+.green-container:hover {
+    margin: 140px 40px;
+}
+
+.green-container {
     border-radius: 100px;
-    margin-left: 10px;
     background: rgb(131,201,173);
     background: linear-gradient(90deg, rgba(131,201,173,1) 0%, rgba(176,217,163,1) 100%, rgba(0,0,0,1) 100%);
-    margin: auto;
-    margin-bottom: 100px;
+    margin: 150px 50px;
     display: flex;
+}
+
+.text-container {
+    font-size: 30px;
+    background: transparent;
+    text-align: center;
+    margin: 60px 60px;
 }
 
 /* Explore */
