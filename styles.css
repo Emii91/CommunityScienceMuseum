@@ -11,6 +11,14 @@
     font-family: 'Righteous-Regular';
 }
 
+p {
+    font-size: 20px;
+    text-align: center;
+    margin: 60px 60px;
+    background: transparent;
+}
+
+
 /* index */
 
 header {
@@ -93,7 +101,70 @@ label {
 
 /* Front Page */
 
+.top-module {
+    background: url('images/header-frontpage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
 
+.top-module-text {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    padding: 200px;
+    background: transparent;
+}
+
+.top-module a,
+.top-module-text h1 {
+    background: transparent;
+}
+
+.btn-big {
+    background: rgb(131,199,201);
+    background: linear-gradient(90deg, rgba(131,199,201,1) 0%, rgba(73,111,112,1) 100%, rgba(0,0,0,1) 100%);
+    text-transform: uppercase;
+    padding: 15px 70px;
+    font-size: 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    padding: 35px 125px;
+    font-size: 33px;
+}
+
+.main-module img {
+    max-width: 100%;
+    width: 350px;
+    height: 400px;
+    border-radius: 20%;
+}
+
+.container-blue {
+    width: 1200px;
+    background: rgb(131,199,201);
+    background: linear-gradient(90deg, rgba(131,199,201,1) 0%, rgba(73,111,112,1) 100%, rgba(0,0,0,1) 100%);
+    border-radius: 100px;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.container-green {
+    width: 1200px;
+    border-radius: 100px;
+    margin-left: 10px;
+    background: rgb(131,201,173);
+    background: linear-gradient(90deg, rgba(131,201,173,1) 0%, rgba(176,217,163,1) 100%, rgba(0,0,0,1) 100%);
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+}
 
 /* Explore */
 
