@@ -49,6 +49,7 @@ header img {
 nav {
     height: 100px;
     text-align: right;
+    margin-bottom: 10px;
 }
 
 nav a {
