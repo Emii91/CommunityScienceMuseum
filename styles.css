@@ -258,45 +258,14 @@ h2:hover {
 
 /* Events */
 
-.img-events {
-    max-width: 100%;
-    width: 700px;
-    height: 370px;
-    border-radius: 20%;
-    display: flex;
-    margin: auto;
-    margin-top: 80px;
+#square-module-two {
+    height: 200px;
 }
 
-.events {
-    font-size: 40px;
+.square-h1 {
+    font-size: 20px;
     text-align: center;
     background: transparent;
-    padding-top: 30px;
-}
-
-.events-text {
-    font-size: 30px;
-    text-align: center;
-    margin: 40px 150px;
-    background: transparent;
-}
-
-.blue-container-events,
-.green-container-events {
-    border-radius: 100px;
-    max-width: 100%;
-    width: 975px;
-    height: 450px;
-    margin: auto;
-}
-
-.blue-container-events {
-    background: linear-gradient(90deg, rgba(131,199,201,1) 0%, rgba(73,111,112,1) 100%, rgba(0,0,0,1) 100%);
-}
-
-.green-container-events {
-    background: linear-gradient(90deg, rgba(131,201,173,1) 0%, rgba(176,217,163,1) 100%, rgba(0,0,0,1) 100%);
 }
 
 /* Visit */
