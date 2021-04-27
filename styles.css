@@ -142,7 +142,6 @@ label {
 
 .text-module {
     background: linear-gradient(90deg, rgba(131,199,201,1) 0%, rgba(73,111,112,1) 100%, rgba(0,0,0,1) 100%);
-    padding: 10px;
 }
 
 .text-container {
@@ -219,6 +218,7 @@ label {
 .img-explore-module {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 50px;
 }
 
 .text {
@@ -310,6 +310,7 @@ h2:hover {
     max-width: 100%;
     margin: auto;
     display: flex;
+    padding-bottom: 100px;
 }
 
 
@@ -328,6 +329,14 @@ section.exhibition-module {
 p {
     padding: 20px;
 }
+
+/* Activities */
+
+
+
+
+
+
 
 /* Footer */
 
@@ -349,6 +358,9 @@ footer {
     background: transparent;
 }
 
+.fab, .far {
+    padding-right: 10px;
+}
 
 section.box-middle a {
     display: grid;
@@ -398,6 +410,7 @@ button {
 
 
 /* Media Queries */
+
 
 @media only screen and (max-width: 1200px) {
     .square-module {
