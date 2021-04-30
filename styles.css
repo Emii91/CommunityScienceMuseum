@@ -136,8 +136,8 @@ label {
 }
 
 .btn-big:hover {
-    padding: 17px 73px;
-    font-size: 32px;
+    padding: 16px 71px;
+    font-size: 31px;
 }
 
 .text-module {
@@ -317,10 +317,15 @@ section.main-module {
 /* Kids, Teachers & Researchers */
 
 .img-ktr {
-    max-width: 100%;
+    max-width: 900px;
     margin: auto;
     display: flex;
     padding-bottom: 100px;
+}
+
+
+.VR-image {
+    margin-top: 50px;
 }
 
 
@@ -370,8 +375,12 @@ footer {
     background: transparent;
 }
 
-.fab, .far {
+.fab {
     padding-right: 10px;
+}
+
+.fab:hover {
+    color: black;
 }
 
 section.box-middle a {
@@ -380,6 +389,7 @@ section.box-middle a {
     padding: 20px 5px 5px 5px;
     text-decoration: none;
     margin-left: 100px;
+    width: 150px;
 }
 
 section.box-middle a:hover {
@@ -405,6 +415,7 @@ input[type="email"] {
     width: 300px;
     background: white;
     border: none;
+    color: black;
 }
 
 textarea {
@@ -412,6 +423,7 @@ textarea {
     width: 300px;
     padding-top: 10px;
     background: white;
+    color: black;
 }
 
 button {
@@ -420,6 +432,10 @@ button {
     font-size: 15px;
 }
 
+button:hover {
+    font-size: 16px;
+    border: 1.5px solid black;
+}
 
 /* Media Queries */
 
