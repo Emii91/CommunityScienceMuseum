@@ -100,6 +100,7 @@ label {
     background: url('images/header-frontpage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 700px;
 }
 
@@ -148,7 +149,6 @@ label {
     font-size: 20px;
     background: transparent;
     text-align: center;
-    margin: 0px 60px;
 }
 
 .square-module {
@@ -308,6 +308,7 @@ h2:hover {
 .involved-img {
     width: 800px;
     height: 600px;
+    border-radius: 20%;
 }
 
 section.main-module {
@@ -317,9 +318,8 @@ section.main-module {
 /* Kids, Teachers & Researchers */
 
 .img-ktr {
-    max-width: 900px;
+    max-width: 100%;
     margin: auto;
-    display: flex;
     padding-bottom: 50px;
 }
 
@@ -349,7 +349,7 @@ section.main-module {
 #slider figure img {
     Width: 20%;
     Float: left;
-    height: 750px;
+    height: 500px;
 }
     
 @keyframes slider {
@@ -430,6 +430,7 @@ footer {
 .social {
     padding: 20px;
     background: transparent;
+    text-align: center;
 }
 
 .fab {
@@ -576,7 +577,7 @@ button:hover {
     }
     section.box-middle a {
         justify-content: center;
-        margin-left: 0px;
+        margin: 0 auto;
     }
     .box-right {
         justify-content: center;
@@ -586,4 +587,135 @@ button:hover {
         text-align: center;
     }
 }
-    
+
+@media only screen and (max-width: 700px) {
+    .top-module-text {
+    font-size: 15px;
+    padding: 100px;
+    }
+    .btn-big {
+    padding: 10px 40px;
+    font-size: 15px;
+    }
+    .text-container {
+    font-size: 15px;
+    }
+    .top-module {
+        height: 300px;
+    }
+    .img-explore {
+        width: 350px;
+        height: 350px;
+    }
+    h2 {
+        width: 350px;
+    }      
+    .text-1 {
+        top: -900px;
+    }       
+    .text-2{
+        top: -600px;
+    }    
+    .text-3 {
+        top: -280px;
+    }
+    .text-4 {
+        top: -890px;
+    }
+    .text-5 {
+        top: -570px;
+    }
+    .text-6 {
+        top: -250px;
+    }
+    p {
+        font-size: 15px;
+        padding: 20px;
+    }  
+    #slider figure img {
+        height: 400px;
+    }    
+    .text-visit p {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .header-visit h1 {
+        font-size: 30px;
+    }
+    .main-module img {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .text-container {
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+    .square-module {
+        margin: 0 auto;
+    }
+    .square-three {
+        margin-bottom: 50px;
+    }
+    .img-explore {
+        width: 300px;
+        height: 300px;
+    }        
+    h2 {
+        width: 300px;
+    }
+    .text-2 {
+        top: -500px;
+    }          
+    .text-1 {
+        top: -750px;
+    }        
+    .text-3 {
+        top: -250px;
+    }
+    .text-4 {
+        top: -750px;
+    }
+    .text-5 {
+        top: -500px;
+    }
+    #slider figure img {
+        height: 400px;
+    }
+    .text-visit p {
+        font-size: 8px;
+        padding: 5px;
+    }
+    .header-visit h1 {
+        font-size: 20px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+    .social {
+        font-size: 10px;
+    }
+    .section.box-middle a {
+        font-size: 10px;
+    }
+    .form-text {
+        font-size: 10px;
+    }
+    .msg-text {
+        font-size: 10px;
+    }
+    button {
+        padding: 8px 40px;
+    }
+    textarea {
+        height: 50px;
+    }
+    input[type="email"] {
+        height: 20px;
+    }
+    .square-one {
+        margin-top: 50px;
+    }
+}
