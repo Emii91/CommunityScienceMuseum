@@ -34,8 +34,8 @@ header img {
 }
 
 .btn:hover {
-    padding: 10px 40px;
-    font-size: 23px;
+    padding: 9px 40px;
+    font-size: 21px;
 }
 
 
@@ -320,12 +320,66 @@ section.main-module {
     max-width: 900px;
     margin: auto;
     display: flex;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
+.kids-p {
+    padding: 0px;
+    font-size: 30px;
+}
 
-.VR-image {
+.kids-image {
     margin-top: 50px;
+    max-width: 100%;
+}
+
+#slider {
+    Overflow: hidden;
+    margin-bottom: 50px;
+}
+    
+#slider figure {
+    Position: relative;
+    Width: 500%;
+    Margin: 0px;
+    Left: 0px;
+    Animation: 20s slider infinite;
+}
+    
+#slider figure img {
+    Width: 20%;
+    Float: left;
+    height: 750px;
+}
+    
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
 }
 
 
@@ -344,6 +398,9 @@ section.exhibition-module {
 
 p {
     padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
 }
 
 /* Activities */
