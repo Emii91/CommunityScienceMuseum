@@ -1,0 +1,20 @@
+/* Front Page */
+
+.top-module {
+    background: url('../images/header-frontpage.jpg') center no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.top-module-text {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    padding: 200px;
+    background: transparent;
+}
+
+.top-module a,
+.top-module-text h1 {
+    background: transparent;
+}

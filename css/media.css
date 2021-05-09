@@ -1,0 +1,247 @@
+@media only screen and (max-width: 1600px) {
+    .visit-header {
+        height: 500px;
+    }
+    }
+
+@media only screen and (max-width: 1200px) {
+    .square-module {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+    .visit-header {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    label {      
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 2px solid #496F70;
+        margin: 0;
+    }
+    .menu a:hover {
+        background: rgb(131,199,201);
+        background: linear-gradient(90deg, rgba(131,199,201,1) 0%, rgba(73,111,112,1) 100%, rgba(0,0,0,1) 100%);
+        font-size: 22px;
+    }
+    #toggle:checked + .menu {
+        display: block;
+        position: absolute;
+        margin-top: 80px;
+    }
+    .img-explore-module {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .img-explore {
+        width: 500px;
+        height: 520px;
+    }
+    h2 {
+        width: 500px;
+    }
+    .text-1,
+    .text-4 {
+        top: -1250px;
+    }
+    .text-2,
+    .text-5 {
+        top: -800px;
+    }
+    .text-3,
+    .text-6 {
+        top: -320px;
+    }
+    .main-module img {
+        width: 500px;
+        height: 600px;
+        border-radius: 15%;
+    }
+    .text-visit p {
+        margin: 0px 50px;
+    }
+    section.exhibition-module {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .square-module {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+    footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer p {
+        text-align: center;
+    }
+    section.box-middle a {
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .box-right {
+        justify-content: center;
+        display: flex;
+    }
+    .social {
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    #toggle:checked + .menu {
+        margin-top: 100px;
+    }
+    .top-module-text {
+    font-size: 15px;
+    padding: 100px;
+    }
+    .btn-big {
+    padding: 10px 40px;
+    font-size: 15px;
+    }
+    .text-container {
+    font-size: 15px;
+    }
+    .top-module {
+        height: 300px;
+    }
+    .img-explore {
+        width: 350px;
+        height: 350px;
+    }
+    h2 {
+        width: 350px;
+    }      
+    .text-1 {
+        top: -900px;
+    }       
+    .text-2{
+        top: -600px;
+    }    
+    .text-3 {
+        top: -280px;
+    }
+    .text-4 {
+        top: -890px;
+    }
+    .text-5 {
+        top: -570px;
+    }
+    .text-6 {
+        top: -250px;
+    }
+    p {
+        font-size: 15px;
+        padding: 20px;
+    }  
+    #slider figure img {
+        height: 400px;
+    }    
+    .text-visit p {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .header-visit h1 {
+        font-size: 30px;
+    }
+    .main-module img {
+        width: 300px;
+        height: 400px;
+    }
+    .visit-header {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .logo {
+        width: 150px;
+    }
+    .text-container {
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+    .square-module {
+        margin: 0 auto;
+    }
+    .square-three {
+        margin-bottom: 50px;
+    }
+    .img-explore {
+        width: 300px;
+        height: 300px;
+    }        
+    h2 {
+        width: 300px;
+    }
+    .text-2 {
+        top: -500px;
+    }          
+    .text-1 {
+        top: -750px;
+    }        
+    .text-3 {
+        top: -250px;
+    }
+    .text-4 {
+        top: -750px;
+    }
+    .text-5 {
+        top: -500px;
+    }
+    #slider figure img {
+        height: 400px;
+    }
+    .text-visit p {
+        font-size: 8px;
+        padding: 5px;
+    }
+    .header-visit h1 {
+        font-size: 20px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+    .social {
+        font-size: 10px;
+    }
+    .section.box-middle a {
+        font-size: 10px;
+    }
+    .form-text {
+        font-size: 10px;
+    }
+    .msg-text {
+        font-size: 10px;
+    }
+    button {
+        padding: 8px 40px;
+    }
+    textarea {
+        height: 50px;
+    }
+    input[type="email"] {
+        height: 20px;
+    }
+    .square-one {
+        margin-top: 50px;
+    }
+    .kids-p {
+        font-size: 15px;
+    }
+    .visit-header {
+        height: 150px;
+    }
+}

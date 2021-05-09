@@ -1,0 +1,17 @@
+/* Get Involved */
+
+.img-involved {
+    max-width: 100%;
+    width: 2000px;
+}
+
+.involved-img {
+    width: 800px;
+    height: 600px;
+    border-radius: 20%;
+}
+
+section.main-module {
+    text-align: center;
+}
+

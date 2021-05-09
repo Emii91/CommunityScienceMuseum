@@ -1,0 +1,92 @@
+/* Explore */
+
+.img-explore-module {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 50px;
+}
+
+
+.img-explore {
+    width: 300px;
+    height: 320px;
+    border-radius: 20%;
+    margin: auto;
+    transition: transform .3s;
+}
+
+
+.img-explore:hover {
+    transform: translatey(5px);
+}
+
+
+
+/* Kids, Teachers & Researchers */
+
+.img-ktr {
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.kids-p {
+    padding: 0px;
+    font-size: 30px;
+}
+
+.kids-image {
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+#slider {
+    Overflow: hidden;
+    margin-bottom: 50px;
+}
+    
+#slider figure {
+    Position: relative;
+    Width: 500%;
+    Margin: 0px;
+    Left: 0px;
+    Animation: 20s slider infinite;
+}
+    
+#slider figure img {
+    Width: 20%;
+    Float: left;
+    height: 700px;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
